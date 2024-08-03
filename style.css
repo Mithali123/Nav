@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(234, 255, 0);
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+   
+}
+.nav-menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.nav-item a{
+    color: rgb(16, 16, 16);
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    transition: color 0.5s ease,background-color 0.5s ease;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-item a:hover{
+    color: rgba(53, 139, 30, 0.938);
+    background-color: white;
+    border-radius: 20px;
+}
+section{
+    padding: 400px 30px;
+    height: 100vh;
+    text-align: center;
+    font-size: 40px;
+}
+#home{
+    background-color: rgb(35, 62, 11);
+    cursor: pointer;
+}
+#about{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+#contact{
+    background-color: rgb(35, 62, 11);
+    cursor: pointer;
+}
